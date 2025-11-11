@@ -13,8 +13,8 @@ Automatically updated every day with latest rates.
 ## 🪙 Crypto
 | Coin | Price (TRY) |
 |------|----------------|
-| Bitcoin | 4411404 |
-| Ethereum | 149292 |
+| Bitcoin | 4410984 |
+| Ethereum | 149363 |
 
 ---
 
