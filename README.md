@@ -1,20 +1,20 @@
 # 💰 Daily Currency & Crypto Tracker
 Automatically updated every day with latest rates.
 
-📅 **Date:** (auto-filled daily)
+📅 **Date:** 2025-11-11
 
 ## 💵 Currency (Base: TRY)
 | Currency | Rate |
 |-----------|------|
-| USD | ... |
-| EUR | ... |
-| GBP | ... |
+| USD | 42.25 |
+| EUR | 48.84 |
+| GBP | 55.65 |
 
 ## 🪙 Crypto
 | Coin | Price (TRY) |
-|------|--------------|
-| Bitcoin | ... |
-| Ethereum | ... |
+|------|----------------|
+| Bitcoin | 4411404 |
+| Ethereum | 149292 |
 
 ---
 
