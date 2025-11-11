@@ -4,10 +4,14 @@
     "currency": {
         "USD": 42.25,
         "EUR": 48.84,
-        "GBP": 55.65
+        "GBP": 55.65,
+        "JPY": 0.27,
+        "CHF": 52.47
     },
     "crypto": {
-        "bitcoin": 4410984,
-        "ethereum": 149363
+        "bitcoin": 4402717,
+        "dogecoin": 7.49,
+        "ethereum": 148446,
+        "solana": 6868.44
     }
 }
