@@ -1,0 +1,32 @@
+name: Daily Currency & Crypto Update
+
+on:
+  schedule:
+    - cron: '0 7 * * *'  # Her sabah 07:00 UTC (10:00 Türkiye)
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python main.py
+
+      - name: Commit & push changes
+        run: |
+          git config --local user.email "github-actions@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add .
+          git commit -m "🔄 Daily update $(date +'%Y-%m-%d')" || echo "No changes"
+          git push
